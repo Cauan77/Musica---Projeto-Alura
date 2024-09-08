@@ -1,4 +1,4 @@
-## Guia Completo: Sua Plataforma de Músicas Personalizada ##
+## Guia Completo: Sua Plataforma de Músicas Personalizada - Imersão DEV com Google Gemini ##
 O que é?
 
 Imagine ter sua própria jukebox digital, personalizada e sempre à mão! Essa aplicação te permite pesquisar por suas músicas, artistas ou gêneros favoritos, e em poucos segundos, você tem acesso a informações detalhadas como letras, clipes e muito mais. É como ter um catálogo musical particular, sempre atualizado e organizado.
