@@ -1,0 +1,116 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background: radial-gradient(at 68.91657326694178% 39.41528975971814%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 1) 0%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 0) 100%), radial-gradient(at 77.31353997909237% 61.95250002693417%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 1) 0%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 0) 100%), radial-gradient(at 53.299380524022986% 97.7414760297016%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 1) 0%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 0) 100%), radial-gradient(at 12.73094977135144% 40.527619432868036%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 1) 0%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 0) 100%), radial-gradient(at 9.887582172484066% 68.08494817062419%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 1) 0%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 0) 100%), radial-gradient(at 6.190747150886855% 16.65181617998962%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 1) 0%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 0) 100%), radial-gradient(at 70.6105260773787% 31.819452830829064%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 1) 0%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 0) 100%), radial-gradient(at 90.52523756998397% 84.55784615203493%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 1) 0%, hsla(220.7142857142857, 96.55172413793103%, 45.490196078431374%, 0) 100%), radial-gradient(at 51.274739451522656% 72.11282253158441%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 1) 0%, hsla(221.31147540983608, 81.33333333333336%, 85.29411764705883%, 0) 100%), radial-gradient(at 41.72686516022628% 46.472646730671364%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 1) 0%, hsla(220.8196721311475, 80.26315789473684%, 70.19607843137254%, 0) 100%); /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #8c4949; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    
+    color: #151516; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.titulo {
+    color: white; /* Cor do texto */
+    background-image: radial-gradient(at 45.71834382457782% 27.705733711154124%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 1) 0%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 0) 100%), radial-gradient(at 76.14264588556526% 32.200145297051684%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 1) 0%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 0) 100%), radial-gradient(at 1.473363272686501% 23.93748113839269%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 1) 0%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 0) 100%), radial-gradient(at 64.86343823590663% 74.47665626972952%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 1) 0%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 0) 100%), radial-gradient(at 96.0237077584407% 25.200615645353942%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 1) 0%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 0) 100%), radial-gradient(at 82.19565650990708% 96.37470803169631%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 1) 0%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 0) 100%), radial-gradient(at 34.160613730343556% 37.35153605753179%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 1) 0%, hsla(216.9230769230769, 55.319148936170215%, 36.86274509803921%, 0) 100%), radial-gradient(at 58.98443407183631% 10.545455719734843%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 1) 0%, hsla(213.94736842105263, 55.072463768115945%, 27.058823529411764%, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente, mostrando apenas o gradiente */
+  } 
